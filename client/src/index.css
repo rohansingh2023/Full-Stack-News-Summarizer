@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities; 

@@ -46,7 +46,7 @@ def Summary():
 
 		maxL = int(req.json["maxL"])
 		minL = maxL // 4
-
+		
 		def query(payload):
 			response = requests.post(API_URL, headers=headers, json=payload)
 			return response.json()
