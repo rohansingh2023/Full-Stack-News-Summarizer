@@ -2,9 +2,9 @@
 
 It is a website where users can enter their articles and it will summarize the text of the desired length
 We've used the following Tech Stack:
-Frontend: React + TailwindCSS
-Backend: Flask
-ML Algorithm: FaceBook's BART
+Frontend: React + TailwindCSS,
+Backend: Flask,
+ML Algorithm: FaceBook's BART,
 
 ### How to use
 
