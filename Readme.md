@@ -32,9 +32,9 @@ npm run dev
 
 Some previews
 
-![home](./images/Screenshot (24).png)
+![home](./images/Screenshot24.png)
 
-![aricle](./images/Screenshot (26).png)
-![aricle](./images/Screenshot (27).png)
+![aricle](./images/Screenshot26.png)
+![aricle](./images/Screenshot27.png)
 
-![summary](./images/Screenshot (29).png)
+![summary](./images/Screenshot29.png)
