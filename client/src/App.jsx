@@ -7,14 +7,14 @@ import About from "./pages/About";
 
 function App() {
   return (
-    <BrowserRouter>
-    <Navbar />
-    <Routes>
+    <>
+      <Navbar />
+      <Routes>
         <Route index element={<Home />} />
         <Route path="/summarizer" element={<Summarizer />} />
         <Route path="/about" element={<About />} />
-    </Routes>
-  </BrowserRouter>
+      </Routes>
+    </>
   );
 }
 
