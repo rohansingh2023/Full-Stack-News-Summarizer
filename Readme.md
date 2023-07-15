@@ -32,6 +32,12 @@ npm i
 npm run dev
 ```
 
+For Testing client:
+
+```bash
+npm run test
+```
+
 Some previews
 
 ![home](./images/Screenshot24.png)
