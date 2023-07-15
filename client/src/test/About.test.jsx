@@ -22,5 +22,5 @@ test("All test should be rendered", () => {
   );
   expect(aboutText3.textContent).toEqual("You can decide the length, ");
   expect(aboutText4.textContent).toEqual("We give you the news summary !! ");
-  expect(aboutText5.textContent).toEqual("Aur kuch nahi karte hum");
+  expect(aboutText5.textContent).toEqual("Enjoy Summarizing");
 });
