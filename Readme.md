@@ -2,9 +2,11 @@
 
 It is a website where users can enter their articles and it will summarize the text of the desired length
 We've used the following Tech Stack:
-Frontend: React + TailwindCSS,
-Backend: Flask,
-ML Algorithm: FaceBook's BART,
+- Frontend: React + TailwindCSS,
+- Backend: Flask,
+- ML Algorithm: FaceBook's BART,
+- Testing: Vitest, React-Testing Library,
+- CI/CD: GitHub Actions
 
 ### How to use
 
@@ -28,6 +30,12 @@ npm i
 
 ```bash
 npm run dev
+```
+
+For Testing client:
+
+```bash
+npm run test
 ```
 
 Some previews
