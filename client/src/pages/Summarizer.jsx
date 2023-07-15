@@ -35,7 +35,7 @@ const Summarizer = () => {
   return (
     <div>
       <h2 className="mt-5 mx-10 text-rose-500 italic md:text-lg">
-        First copy the news article and then paste it in the below textarea
+        First copy the news article and then paste it in the below area
       </h2>
       <div className="flex flex-col text-center transition-all">
         <textarea
