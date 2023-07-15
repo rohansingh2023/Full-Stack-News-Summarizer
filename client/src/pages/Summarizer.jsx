@@ -12,11 +12,13 @@ const Summarizer = () => {
     if (article !== "") {
       const refresh = toast.loading("Generating Summaries...");
       try {
-        const res = await axios.post("http://127.0.0.1:5000/summary", {
-          article: article,
-          maxL: textLen.toString(),
-        });
-        console.log(res);
+        const res = await axios.post(
+          `${import.meta.env.VITE_SERVER_URL}/summary`,
+          {
+            article: article,
+            maxL: textLen.toString(),
+          }
+        );
         setSummary(res.data);
         toast.success("Generated Summaries Successfully!!", {
           id: refresh,

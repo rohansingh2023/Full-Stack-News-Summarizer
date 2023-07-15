@@ -19,7 +19,7 @@ const About = () => {
         </h2>
       </div>
       <div className="m-10 font-Greatvibes" data-testid="h5">
-        Aur kuch nahi karte hum
+        Enjoy Summarizing
       </div>
     </div>
   );
