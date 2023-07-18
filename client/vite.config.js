@@ -13,4 +13,12 @@ export default defineConfig({
     css: true,
     setupFiles: "./src/test/setup.js",
   },
+  server: {
+    watch: {
+      usePolling: true,
+    },
+    host: true, // needed for the Docker Container port mapping to work
+    strictPort: true,
+    port: 5173,
+  },
 });
