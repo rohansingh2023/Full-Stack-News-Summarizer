@@ -1,6 +1,6 @@
 ### About
 
-It is a website where users can enter their articles and it will summarize the text of the desired length
+It is a website where users can enter their articles and it will summarize the text based on the desired length.
 We've used the following Tech Stack:
 - Frontend: React + TailwindCSS,
 - Backend: Flask,
